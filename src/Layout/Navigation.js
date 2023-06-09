@@ -5,26 +5,26 @@ import {NavLink, useNavigate} from "react-router-dom";
 
 
 export default function Navigation(){
-
-  const [search, setSearch] =useState("")
+  
+  const [info, setInfo] =useState("")
   const navigate = useNavigate()
 
   const handleChange= (e)=>{
-    setSearch(e.target.value)
+    setInfo(e.target.value)
     };
   
   const Submit =(e) => {
     e.preventDefault();
-    navigate('/home', {state:search})
-    setSearch('');
+    navigate('/search', {state:info})
+    setInfo('');
   };
 
 return(
 <nav>
-        <NavLink to='/' className='logohome'><h1> Kena </h1></NavLink>
+        <NavLink to='/' className='logohome'><h1> UNSP </h1></NavLink>
         <form className='wholeSearch' id='searchForm'>
           <button className='searchButton' type='Submit' onClick={Submit} ></button>
-          <input className='searchBox' type='text' id='searchForm' placeholder="Search high-resolution images" onChange={handleChange} value={search}></input>
+          <input className='searchBox' type='text' id='searchForm' placeholder="Search high-resolution images" onChange={handleChange} value={info}></input>
           
         </form>
         <NavLink to='advertise'> Advertise</NavLink>
@@ -33,6 +33,7 @@ return(
         <button>Submit a photo</button>
         <i><FontAwesomeIcon icon={faBell} size="lg"/></i>
         <i><FontAwesomeIcon icon={faUser} size="lg"/></i>
-        <i><FontAwesomeIcon icon={faBars} size="lg"/></i>
+        <i className='menuBar'><FontAwesomeIcon icon={faBars} size="lg"/></i>
+        <NavLink to='search'></NavLink>
         </nav>
 )}

@@ -11,15 +11,17 @@ import Advertise from "./pages/Advertise"
 import Blog from "./pages/Blog"
 import Unsplash from "./pages/Unsplash"
 import Genlayout from './Layout/Genlayout'
+import Search from './pages/Search'
 
 
  const router  = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<Genlayout/>}>
-            <Route path='Home' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='advertise' element={<Advertise/>} />
             <Route path='blog' element={<Blog />} />
             <Route path='unsplash' element={<Unsplash />} />
+            <Route path='search' element={<Search />}/>
         </Route>
     )
  )
