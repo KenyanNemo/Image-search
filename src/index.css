@@ -18,10 +18,16 @@ body {
 }
 
 /* nav bar  */
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
 header nav{
   display: flex ;
   justify-content: center;
-  margin: 20px 30px 30px 30px;
+  padding: 20px 30px 30px 30px;
   align-content: space-around;
 }
 .logohome{
@@ -97,12 +103,64 @@ header nav i{
   object-fit: cover;
 }
 .mainImageContainer{
-  height: 650px;
+  height: 750px;
   width:100%;
   margin-bottom: 50px;
+  display:flex;
 }
 .mainImage{
   height:100%;
   width:100%;
   object-fit: cover;
+}
+.secondSearch{
+  display:flex;
+  flex-direction: column;
+  position: absolute;
+  font-size: 1.5rem;
+  /* justify-content: center; */
+  z-index: 2;
+  top: 40%;
+  padding: 0 20%;
+  width: 60%;
+}
+.secondSearch h1{
+  color: white ;
+}
+.secondSearch p{
+  color: white ;
+}
+.wholeSearch2{
+  width:100%;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  margin-right: 15px;
+  background-color: white;
+
+}
+.searchBox2{
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 95%;
+  border-radius: inherit;
+    
+}
+
+.searchButton2{
+  width: 40px;
+  background: url(https://cdn-icons-png.flaticon.com/512/108/108138.png?w=740&t=st=1685099654~exp=1685100254~hmac=ba716d8c926170341fbdc5ca03786b3ca18db838c4da1b610188e6cfdacb2f6a) no-repeat center;
+  background-size: 15px;
+  border: transparent;
+  margin: 0.4rem 0;
+  border-radius: inherit;
+  opacity: 0.4;
+}
+
+.searchButton2:hover{
+  opacity: 0.8;
+  cursor: pointer;
 }

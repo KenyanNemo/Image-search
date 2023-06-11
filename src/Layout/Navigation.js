@@ -20,7 +20,7 @@ export default function Navigation(){
   };
 
 return(
-<nav>
+<nav className='sticky'>
         <NavLink to='/' className='logohome'><h1> UNSP </h1></NavLink>
         <form className='wholeSearch' id='searchForm'>
           <button className='searchButton' type='Submit' onClick={Submit} ></button>
