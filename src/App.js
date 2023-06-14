@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-    createBrowserRouter,
+    createHashRouter,
     createRoutesFromElements,
     RouterProvider,
     Route,
@@ -14,7 +14,7 @@ import Genlayout from './Layout/Genlayout'
 import Search from './pages/Search'
 
 
- const router  = createBrowserRouter(
+ const router  = createHashRouter(
     createRoutesFromElements(
         <Route path="/" element={<Genlayout/>}>
             <Route path='/' element={<Home />} />
