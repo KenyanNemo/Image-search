@@ -1,7 +1,7 @@
 {
   "name": "routing-project",
   "version": "0.2.0",
-  "hompeage": "https://KenyanNemo.github.io/Image-search",
+  "homepage": "https://KenyanNemo.github.io/Image-search",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
