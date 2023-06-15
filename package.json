@@ -1,4 +1,4 @@
-{
+{ 
   "name": "routing-project",
   "version": "0.2.0",
   "homepage": "https://KenyanNemo.github.io/Image-search/",
@@ -9,14 +9,14 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@testing-library/jest-dom": "5.16.5",
-    "@testing-library/react": "14.0.0",
-    "@testing-library/user-event": "14.4.3",
+    "@testing-library/jest-dom": " ",
+    "@testing-library/react": " ",
+    "@testing-library/user-event": " ",
     "dotenv": "^16.1.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": " ",
+    "react-dom": " ",
     "react-router-dom": "^6.11.2",
-    "web-vitals": "3.3.2"
+    "web-vitals": " "
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -45,7 +45,7 @@
     ]
   },
   "devDependencies": {
-    "react-scripts": "5.0.1",
+    "react-scripts": "",
     "gh-pages": "^5.0.0"
     
   }

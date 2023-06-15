@@ -6,9 +6,10 @@ import { HashRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Router basename="/">
-    <App />
+  <Router basename="/Image-search">
+    <React.StrictMode>
+     <App />
+    </React.StrictMode>
   </Router>
-  </React.StrictMode>
+  
 );
