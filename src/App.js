@@ -14,7 +14,7 @@ import Genlayout from './Layout/Genlayout'
 import Search from './pages/Search'
 
 
- const router  = createHashRouter(
+ const router  = createHashRouter( 
     createRoutesFromElements(
         <Route path="/" element={<Genlayout/>}>
             <Route path='/' element={<Home />} />
