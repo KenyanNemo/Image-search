@@ -164,3 +164,78 @@ header nav i{
   opacity: 0.8;
   cursor: pointer;
 }
+.top{
+  padding-top: 120px;
+  margin: 0 0px 120px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
+
+  
+}
+.top h1{
+  color: black;
+  
+}
+.top p{
+  color: black;
+}
+.top button{
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.top img{
+  height: 570px;
+}
+.topText{
+  width: 30%;
+}
+.topText li{
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.footer{
+  display:flex;
+  flex-direction: column;
+  padding: 0 8%;
+    
+}
+.footer h3{
+  padding-bottom: 20px;
+  color: black;
+}
+.footer p{
+  line-height: 1.5;
+  padding-bottom: 30px;
+  color: black;
+
+}
+.footer a{
+  text-decoration: none;
+  line-height: 2;
+}
+.footerRow{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  
+}
+.flexDiv{
+  padding: 0 5% 0 0;
+ 
+}
+.flexDiv1{
+  width: 30%;
+}
+.fin{
+  padding: 20px 0;
+}
+ .fin a{
+  padding: 0 30px 30px 0;
+ }
