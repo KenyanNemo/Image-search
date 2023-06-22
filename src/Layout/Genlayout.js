@@ -21,7 +21,9 @@ export default function Layout() {
     </main>
 
     <footer>
-      {location.pathname!=='/' && <Footer/>}
+      {location.pathname!=='/'
+      && location.pathname!=='/search'?
+      <Footer/>: null}
     </footer>
 
     </div>
